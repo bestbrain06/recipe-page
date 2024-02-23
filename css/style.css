@@ -33,3 +33,12 @@
   --clr-600: hsl(30, 10%, 34%);
   --clr-800: hsl(24, 5%, 18%);
 }
+
+/* <====== CSS RESET =========>  */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
