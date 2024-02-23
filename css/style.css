@@ -42,3 +42,50 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* <====== Base CSS Styling ======> */
+
+body {
+  font-family: "Outfit";
+  font-weight: 400;
+  background-color: var(--clr-300);
+  font-size: 1rem;
+}
+
+header,
+main {
+  background-color: var(--clr-100);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "young-serif";
+  font-weight: 800;
+}
+
+h1 {
+  color: var(--clr-800);
+}
+
+h2,
+span {
+  color: var(--clr-nutmeg);
+  font-weight: 800;
+}
+
+p,
+li,
+td {
+  color: var(--clr-600);
+}
+
+b {
+  color: var(--clr-600);
+  font-weight: 800;
+}
