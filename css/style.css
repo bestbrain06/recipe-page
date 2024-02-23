@@ -48,7 +48,6 @@
 body {
   font-family: "Outfit";
   font-weight: 400;
-  background-color: var(--clr-300);
   font-size: 1rem;
 }
 
@@ -88,4 +87,20 @@ td {
 b {
   color: var(--clr-600);
   font-weight: 800;
+}
+
+.header__body,
+main {
+  margin-inline: 3rem;
+}
+
+/* <========= HEADER SECTION =======> */
+.header__image-wrapper {
+  margin-block-end: 2rem;
+}
+
+.header__body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
