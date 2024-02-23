@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Outfit";
+  src: url(../assets/fonts/outfit/static/Outfit-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(../assets/fonts/outfit/static/Outfit-Bold.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "young-serif", sans-serif;
+  src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+  font-weight: 400;
+}
