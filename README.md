@@ -46,7 +46,7 @@ I used html, css to build this recipe page. I took in note of semantic Html, and
 </table>
 ```
 
-####How to space out padding of a bullet point using the padding left properties.
+#### How to space out padding of a bullet point using the padding left properties.
 
 ```css
 .Instructions__list-item {
