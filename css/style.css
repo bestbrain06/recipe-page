@@ -53,6 +53,7 @@ body {
   font-weight: 400;
   font-size: 1.3rem;
   line-height: 1.5;
+  margin-block: 3rem;
 }
 
 .container {
@@ -204,3 +205,26 @@ main {
 }
 
 /* <======== DESKTOP AND TABLET MODE ========> */
+@media (min-width: 60em) {
+  body {
+    width: 100%;
+    max-width: 800px;
+    background-color: var(--clr-300);
+
+    margin-inline: auto;
+  }
+  .container {
+    background-color: var(--clr-100);
+    border-radius: 1.8rem;
+    overflow: hidden;
+  }
+
+  .header__image-wrapper {
+    padding: 2rem;
+    padding-bottom: 0;
+  }
+
+  .header__image {
+    border-radius: 0.8rem;
+  }
+}
