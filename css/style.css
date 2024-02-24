@@ -172,3 +172,20 @@ main {
 .Instructions__list-item::marker {
   color: var(--clr-nutmeg);
 }
+
+.Nutrition {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-block-end: 3rem;
+}
+
+.Nutrition__table {
+  border-collapse: collapse;
+}
+
+.Nutrition__table-row-content {
+  box-shadow: 0px 2px 0px 0px rgba(228, 222, 216, 1);
+
+  padding: 0.8rem;
+}
