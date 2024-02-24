@@ -104,3 +104,28 @@ main {
   flex-direction: column;
   gap: 1rem;
 }
+
+/* <======== PREPARATION SECTION ======> */
+
+.Preparation {
+  background-color: var(--clr-200);
+  padding: 1.5rem 3rem;
+  border-radius: 0.8rem;
+
+  margin-block: 2rem;
+}
+
+.Preparation__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-right: 2rem;
+}
+
+.Preparation__list-item {
+  padding-left: 0.5rem;
+}
+
+.Preparation__list-item::marker {
+  color: var(--clr-600);
+}
