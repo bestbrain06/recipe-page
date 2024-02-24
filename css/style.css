@@ -55,8 +55,7 @@ body {
   line-height: 1.5;
 }
 
-header,
-main {
+.container {
   background-color: var(--clr-100);
 }
 
@@ -203,3 +202,5 @@ main {
 
   padding: 0.8rem;
 }
+
+/* <======== DESKTOP AND TABLET MODE ========> */
