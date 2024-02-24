@@ -129,3 +129,24 @@ main {
 .Preparation__list-item::marker {
   color: var(--clr-600);
 }
+
+.Ingredients {
+  margin-block-end: 2.5rem;
+}
+
+.Ingredients__title {
+  margin-block-end: 1.5rem;
+}
+
+.Ingredients__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+
+  box-shadow: 0px 2px 2px var(--clr-400);
+  padding: 1.5rem 3rem;
+}
+
+.Ingredients__list-item {
+  padding-left: 0.5rem;
+}
