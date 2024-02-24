@@ -53,7 +53,6 @@ body {
   font-weight: 400;
   font-size: 1.3rem;
   line-height: 1.5;
-  margin-block: 3rem;
 }
 
 .container {
@@ -212,6 +211,7 @@ main {
     background-color: var(--clr-300);
 
     margin-inline: auto;
+    margin-block: 3rem;
   }
   .container {
     background-color: var(--clr-100);
