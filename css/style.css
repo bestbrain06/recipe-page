@@ -150,3 +150,25 @@ main {
 .Ingredients__list-item {
   padding-left: 0.5rem;
 }
+
+.Instructions {
+  margin-block-end: 2rem;
+}
+
+.Instructions__title {
+  margin-block-end: 0.5rem;
+}
+
+.Instructions__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.Instructions__list-item {
+  padding-left: 0.5rem;
+}
+
+.Instructions__list-item::marker {
+  color: var(--clr-nutmeg);
+}
